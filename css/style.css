@@ -943,6 +943,24 @@ body{
     font-size: 26px;
     color: #4A585E;
 }
+.output-group   {
+    position: relative;
+}
+.output-title {
+    position: absolute;
+    top: 53px;
+    right: 110px;
+    color: #4A585E;
+
+}
+.output-text {
+    position: absolute;
+    top: 183px;
+    right: 110px;
+    color: #4A585E;
+
+}
+
 .form__select-city {
    font-size: 26px;
 }
@@ -1040,13 +1058,14 @@ body{
     
 }
 .radiobuttuns__item.activeCheck::after{
-    content: '\1F5F8';
+    content: '';
     width: 20px;
     height: 20px;
+    background-image: url('../images/checkmark.svg');
     color: #0297D4;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 3px;
+    left: 3px;
     /* border: 1px solid #0297D4; */
     /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     -webkit-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */

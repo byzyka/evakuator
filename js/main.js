@@ -94,3 +94,16 @@ $(document).ready(function(){
         }
     })
 });
+
+const inputTitle = document.querySelector('.form__input-title');
+const outputTitle =document.querySelector('.output-title');
+console.log(outputTitle)
+const inputText = document.querySelector('.form__input-text');
+const outputText =document.querySelector('.output-text');
+const maxLength = 50;
+
+inputTitle.addEventListener("input", function() {
+   
+    outputTitle.textContent = maxLength - this.value.length;
+    console.log(outputTitle.textContent)
+})

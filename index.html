@@ -668,14 +668,17 @@
                         <span class="line"></span>
                     </div>
 
-                    <div class="form__group">
+                    <div class="form__group output-group">
                         <label class="form__item">
                             <span>Заголовок объявления</span>
-                            <input type="text" class="form__input form__input-title"  placeholder="Не более 50 символов" required="">
+                            <input type="text" maxlength="50" class="form__input form__input-title"  placeholder="Не более 50 символов" required="">
+                            <output class="output-title">50</output>
+
                         </label>
                         <label class="form__item">
                             <span>Номер мобильного телефона</span>
-                            <textarea class="form__input form__input-text" placeholder="Не более 50 символов" required=""></textarea>
+                            <textarea maxlength="50" class="form__input form__input-text" placeholder="Не более 50 символов" required=""></textarea>
+                            <output class="output-text">50</output>
                         </label>
                     </div>
 
